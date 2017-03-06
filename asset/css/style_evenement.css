@@ -108,12 +108,13 @@ section#welcome {
 }
 
 section#welcome h1 {
-    color: #a5cfdf;
+    color: #174a6e;
     margin-top: 182px;
 }
 
 
 section#welcome #container-box {
+    height: auto;
 }
 
 section#welcome #container-box h1{
@@ -138,12 +139,59 @@ section#welcome #container {
     text-align: center;
 }
 
+#date p{
+    padding-top: 230px;
+}
 section#welcome #carre1{
     margin-left: -160px;
     height: 60px;
     width: 700px;
     border-radius: 7px;
     background: #174a6e;
+}
+
+section#welcome #carre2{
+    margin-top: 20px;
+    margin-left: -160px;
+    height: 60px;
+    width: 300px;
+    border-radius: 7px;
+    background: #174a6e;
+    /*margin-right: 100px;*/
+}
+section#welcome #carre3{
+    margin-top: 20px;
+    margin-left: 0px;
+    height: 60px;
+    width: 330px;
+    border-radius: 7px;
+    background: #174a6e;
+}
+
+section#welcome #carre4{
+    margin-top: 20px;
+    margin-left: -160px;
+    height: 200px;
+    width: 700px;
+    border-radius: 7px;
+    background: #174a6e;
+}
+
+section#welcome #carre5{
+    margin-top: 20px;
+    margin-left: -160px;
+    height: 60px;
+    width: 300px;
+    border-radius: 7px;
+    background: #174a6e;
+}
+
+#date{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-size: 40px;
+    width: 540px;
 }
 
 section#welcome #container-box p { 
