@@ -1,3 +1,201 @@
 body {
+    margin: 0 auto;
+    width: 1280px;
+    height: 5000px;
+    font-family: 'Poppins', sans-serif;
+}
+
+h1 span, h2 span {
+    color: #e0dddd;
+}
+
+h1, h2 {
+    background-color: #fff;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: left;
+    padding: 16px 60px 5px 346px;
+    border-radius: 0px 3px 3px 0px;
+    display: inline-block;
+}
+
+header {
     margin: 0;
+    width: 1280px;
+    z-index: 0;
+    position: fixed;
+    top: 0px;
+    background-color: rgba(0, 0, 0, 0.749);
+    height: 60px;
+}
+
+header nav {
+    
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 22px;
+    color: #fff;
+}
+
+header nav ul a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+header nav ul a li.active {
+    font-weight: 700;
+    padding-bottom: 19px;
+    border-bottom: 2px solid white;
+}
+
+header #box-contact {
+    background-color: rgba(0, 0, 0, 0.749);
+    width: 235px;
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+}
+
+header .box-header {
+    color: white;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+header hr {
+    width: 60px;
+    color: #fff;
+    
+}
+
+button#sup-contact {
+    background-color: rgb(23, 74, 110);
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    clear: both;
+    font-size: 18px;
+    border: none;
+    color: #fff
+}
+
+header .box-header #number {
+    
+}
+
+section.sec {
+    margin: auto;
+    box-shadow: 5px 5px 20px #000; 
+}
+
+section#welcome {
+    top: 0;
+    background-image: url('../img/bg/StockSnap_EAR2HR15JH.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    height: 640px;
+}
+
+section#welcome h1 {
+    color: #a5cfdf;
+    margin-top: 182px;
+}
+
+
+section#welcome #container-box {
+}
+
+section#welcome #container {
+    width: 340px;
+    padding: 35px;
+    background: #fff;
+    border-radius: 10px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+    margin-top: 30px;
+    font-size: 16px;
+    color: rgb(134, 135, 146);
+    text-align: center;
+}
+
+section#welcome #container-box p { 
+    padding-bottom: 20px;
+    text-align: left;
+}
+
+section#welcome #container-box #price {
+    padding-bottom: 20px;
+}
+
+section#welcome #container-box #price span {
+    font-weight: 500;
+}
+
+section#welcome #container-box #sup-contact {
+}
+
+section#activite {
+    margin: auto;
+}
+
+section#activite h2 {
+    color: #a3cfbd;
+    margin-top: 60px;
+}
+
+section#activite #container-box {
+    display: flex;
+    
+}
+
+section#activite #container-box .activity {
+    margin-left: 30px;
+    margin-right: 30px;
+    flex-direction: row;
+    width: 270px;
+    height: 342px;
+    box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
+}
+
+section#activite #container-box .activity img {
+    width: 240px;
+    height: 292px;
+}
+
+section#activite #container-box .activity a {
+    display: flex;
+    height: 40px;
+    text-decoration: none;
+    color: rgb(134, 135, 146);
+    font-size: 22px;
+    font-weight: 600;
+    justify-content: center;
+    align-items: baseline;
+}
+
+section#activite p {
+    background: #a3cfbd;
+    color: #fff;
+    font-size: 14px;
+    margin-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 1.35;
+}
+
+section#ccm h2 {
+    color: #285f69;
+    margin-top: 60px;
 }

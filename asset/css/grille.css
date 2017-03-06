@@ -1,0 +1,230 @@
+.container {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.grid {
+    margin-right: -20px;
+    display: -webkit-box;
+    display: flex;
+    flex-wrap: wrap;   
+}
+
+[class*=col-] {
+    margin-right: 20px;
+    box-sizing: border-box;
+    flex: 0 0 0;
+}
+
+.col-1 {
+    min-width: calc(1 / 12 * 100% - 20px);
+    flex-basis: calc(1 / 12 * 100% - 20px);
+}
+
+.col-2 {
+    min-width: calc(2 / 12 * 100% - 20px);
+    flex-basis: calc(2 / 12 * 100% - 20px);
+}
+
+.col-3 {
+    min-width: calc(3 / 12 * 100% - 20px);
+    flex-basis: calc(1 / 12 * 100% - 20px);
+}
+
+.col-4 {
+    min-width: calc(4 / 12 * 100% - 20px);
+    flex-basis: calc(1 / 12 * 100% - 20px);
+}
+
+.col-5 {
+    min-width: calc(5 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+}
+
+.col-6 {
+    min-width: calc(6 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+}
+
+.col-7 {
+    min-width: calc(7 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+}
+
+.col-8 {
+    min-width: calc(8 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+}
+
+.col-9 {
+    min-width: calc(9 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+}
+
+.col-10 {
+    min-width: calc(10 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+}
+
+.col-11 {
+    min-width: calc(11 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+}
+
+.col-12 {
+    min-width: calc(12 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+}
+
+@media all and (max-width: 1024px){
+    .m-col-1 {
+        min-width: calc(1 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .m-col-2 {
+        min-width: calc(2 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .m-col-3 {
+        min-width: calc(3 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .m-col-4 {
+        min-width: calc(4 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .m-col-5 {
+        min-width: calc(5 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .m-col-6 {
+        min-width: calc(6 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .m-col-7 {
+        min-width: calc(7 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .m-col-8 {
+        min-width: calc(8 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .m-col-9 {
+        min-width: calc(9 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .m-col-10 {
+        min-width: calc(10 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .m-col-11 {
+        min-width: calc(11 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .m-col-12 {
+        min-width: calc(12 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+}
+
+@media all and (max-width: 768px){
+    .s-col-1 {
+        min-width: calc(1 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .s-col-2 {
+        min-width: calc(2 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .s-col-3 {
+        min-width: calc(3 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .s-col-4 {
+        min-width: calc(4 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .s-col-5 {
+        min-width: calc(5 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .s-col-6 {
+        min-width: calc(6 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .s-col-7 {
+        min-width: calc(7 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .s-col-8 {
+        min-width: calc(8 / 12 * 100% - 20px);
+     
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .s-col-9 {
+        min-width: calc(9 / 12 * 100% - 20px);
+    
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .s-col-10 {
+        min-width: calc(10 / 12 * 100% - 20px);
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .s-col-11 {
+        min-width: calc(11 / 12 * 100% - 20px);
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+
+    .s-col-12 {
+        min-width: calc(12 / 12 * 100% - 20px);
+    flex-basis: calc(1 / 12 * 100% - 20px);
+    }
+}

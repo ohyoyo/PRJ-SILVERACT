@@ -9,7 +9,7 @@
 ### Team
 | Rôle              |       Name       |
 |-------------------|:----------------:|
-| Project Manager   |   Arnold Esther  |
+| Project Manager   |   Arnold Ndame   |
 | Artistic Director | Thibault Delbecq |
 | Lead Developer    |  Yoann Di Maria  |
 | Developer         |  Ludovic Pineau  |
