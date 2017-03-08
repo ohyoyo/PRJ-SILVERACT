@@ -1,4 +1,4 @@
-var _pageName = window.location.pathname.replace('//', '').replace('/', '');
+var _pageName = window.location.pathname.replace('/', '');
 
 var _headerJS_nav = [
     '<a href="index.html">'+
@@ -15,7 +15,7 @@ var _headerJS_nav = [
     ' | '+
     '<a href="activites.html">'+
         '<li class="activites">'+
-            'Activités'+
+            'Activités <div class="menu"> </div>'+
         '</li>'+
     '</a>'+
     ' | '+
@@ -38,6 +38,7 @@ var _headerJS_nav = [
     '</button>'+
         '<hr/>'+
     '<div class="box-header" id="number">'+
+        '<div id="phone"></div>'+
         '<a href="tel:0782824168">07 82 82 41 68</a>'+
     '</div>'
     ];

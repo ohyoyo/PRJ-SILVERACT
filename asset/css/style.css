@@ -1,104 +1,3 @@
-body {
-    margin: 0 auto;
-    width: 1280px;
-    height: 5000px;
-    font-family: 'Poppins', sans-serif;
-}
-
-h1 span, h2 span {
-    color: #e0dddd;
-}
-
-h1, h2 {
-    background-color: #fff;
-    text-transform: uppercase;
-    font-weight: 700;
-    font-size: 36px;
-    text-align: left;
-    padding: 16px 60px 5px 346px;
-    border-radius: 0px 3px 3px 0px;
-    display: inline-block;
-}
-
-header {
-    margin: 0;
-    width: 1280px;
-    z-index: 0;
-    position: fixed;
-    top: 0px;
-    background-color: rgba(0, 0, 0, 0.749);
-    height: 60px;
-}
-
-header nav {
-    
-}
-
-header nav ul {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
-    justify-content: center;
-    margin-top: 22px;
-    color: #fff;
-}
-
-header nav ul a {
-    margin-left: 10px;
-    margin-right: 10px;
-    text-decoration: none;
-    color: #fff;
-    font-weight: 400;
-    font-size: 16px;
-}
-
-header nav ul a li.active {
-    font-weight: 700;
-    padding-bottom: 19px;
-    border-bottom: 2px solid white;
-}
-
-header #box-contact {
-    background-color: rgba(0, 0, 0, 0.749);
-    width: 235px;
-    display: inline-block;
-    margin-left: 50px;
-    border-radius: 0px 0px 15px 15px;
-    text-align: center;
-}
-
-header .box-header {
-    color: white;
-    margin-top: 20px;
-    margin-bottom: 20px;
-}
-
-header hr {
-    width: 60px;
-    color: #fff;
-    
-}
-
-button#sup-contact {
-    background-color: rgb(23, 74, 110);
-    border-radius: 5px;
-    padding: 10px 20px;
-    text-align: center;
-    clear: both;
-    font-size: 18px;
-    border: none;
-    color: #fff
-}
-
-header .box-header #number {
-    
-}
-
-section.sec {
-    margin: auto;
-    box-shadow: 5px 5px 20px #000; 
-}
-
 section#welcome {
     top: 0;
     background-image: url('../img/bg/StockSnap_EAR2HR15JH.jpg');
@@ -108,7 +7,6 @@ section#welcome {
 }
 
 section#welcome h1 {
-    color: #a5cfdf;
     margin-top: 182px;
 }
 
@@ -151,17 +49,16 @@ section#activite {
 section#activite h2 {
     color: #a3cfbd;
     margin-top: 60px;
+    margin-bottom: 60px;
 }
 
 section#activite #container-box {
-    display: flex;
-    
+    max-width: 1280px;
 }
 
 section#activite #container-box .activity {
     margin-left: 30px;
     margin-right: 30px;
-    flex-direction: row;
     width: 270px;
     height: 342px;
     box-shadow: 0px 3px 7px 0px rgba(0, 0, 0, 0.35);
@@ -183,19 +80,77 @@ section#activite #container-box .activity a {
     align-items: baseline;
 }
 
-section#activite p {
-    background: #a3cfbd;
-    color: #fff;
-    font-size: 14px;
-    margin-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 40px;
-    padding-bottom: 40px;
-    line-height: 1.35;
-}
-
 section#ccm h2 {
     color: #285f69;
-    margin-top: 60px;
+}
+
+
+section#ccm #container-box {
+    max-width: 1280px;
+}
+
+section#ccm .box {
+    text-align: center;
+    margin: auto;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+section#ccm h3 {
+    font-size: 36px;
+    color: rgb(40, 95, 105);
+    font-weight: 500;
+    margin: 15px;
+}
+
+section#ccm p {
+    font-size: 14px;
+    justify-content: center;
+}
+
+section#ccm .img {
+}
+
+section#ccm #box {
+    background-image: url('../img/picto/box.png');
+    background-repeat: no-repeat;
+    width: 130px;
+    height: 92px;
+}
+
+section#ccm #pay {
+    background-image: url('../img/picto/pay.png');
+    background-repeat: no-repeat;
+    width: 166px;
+    height: 77px;
+}
+
+section#ccm #how {
+    background-image: url('../img/picto/how.png');
+    background-repeat: no-repeat;
+    width: 97px;
+    height: 84px;
+}
+
+section#ccm #for {
+    background-image: url('../img/picto/for.png');
+    background-repeat: no-repeat;
+    width: 74px;
+    height: 101px;
+}
+
+section#actualite h2 {
+    color: rgb(228, 63, 63);
+}
+
+section#valeur h2 {
+    color: rgb(109, 169, 212);
+}
+
+section#valeur #security {
+    background-image: url('../img/icn_.svg');
+    background-repeat: no-repeat;
+    width: 74px;
+    height: 101px;
 }

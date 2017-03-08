@@ -1,0 +1,268 @@
+body {
+    margin: 0 auto;
+    width: 1280px;
+    max-width: 1280px;
+    font-family: 'Poppins', sans-serif;
+}
+
+/* style color */
+
+
+/* end style color */
+
+
+/* style button, input */
+
+/* end style button, input */
+
+#s_clairblue {
+    color: rgb(165, 207, 223);
+}
+
+#s_green {
+    color: rgb(163, 207, 189);
+}
+
+#bg_green {
+    background: rgb(163, 207, 189);
+}
+
+#bg_blue {
+    background: rgb(109, 169, 212);
+}
+h1 span, h2 span {
+    color: #e0dddd;
+}
+
+h1, h2 {
+    background-color: #fff;
+    font-size: 60px;
+    font-weight: 700;
+    font-size: 36px;
+    text-align: left;
+    text-transform: uppercase;
+    border-radius: 0px 3px 3px 0px;
+    padding: 16px 60px 5px 318px;
+    margin-top: 60px;
+    margin-bottom: 60px;
+    display: inline-block;
+}
+
+.p {
+    color: #fff;
+    font-size: 14px;
+    margin-top: 50px;
+    padding-left: 150px;
+    padding-right: 150px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    line-height: 1.35;
+}
+
+header {
+    margin: 0;
+    width: 1280px;
+    z-index: 0;
+    position: fixed;
+    display: block;
+    background-color: rgba(0, 0, 0, 0.749);
+    height: 60px;
+}
+
+header nav {
+    
+}
+
+header nav ul {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: stretch;
+    justify-content: center;
+    margin-top: 23px;
+    color: #fff;
+}
+
+header nav ul a {
+    margin-left: 10px;
+    margin-right: 10px;
+    text-decoration: none;
+    color: #fff;
+    font-weight: 400;
+    font-size: 16px;
+}
+
+header nav ul a li.active {
+    font-weight: 700;
+    padding-bottom: 19px;
+    border-bottom: 2px solid white;
+}
+
+header nav ul a li.activites .menu {
+    display: inline-block;
+    height: 1px;
+    width: 1px;
+	border: 1px solid #fff;
+	border-color: transparent transparent #fff transparent;
+	border-width: 5px;
+    transform: rotate(90deg);
+    transition: transform 0.5s ease;
+}
+
+header nav ul a li.activites .menu:hover, .menu:active {
+    transform: rotate(180deg);
+}
+
+header #box-contact {
+    background-color: rgba(0, 0, 0, 0.749);
+    width: 200px;
+    display: inline-block;
+    margin-left: 50px;
+    border-radius: 0px 0px 15px 15px;
+    text-align: center;
+}
+
+header #box-contact #phone {
+    background-image: url('../img/icn_.svg');
+    background-repeat: no-repeat;
+    background-size: 14px;
+    width: 14px;
+    height: 14px;
+    display: inline-block;
+    margin-right: 7px;
+}
+
+header .box-header {
+    color: white;
+    margin: 10px 10px;
+    display: inline-block;
+}
+
+header hr {
+    width: 60px;
+    color: #fff;
+    
+}
+
+header #box-contact a {
+    text-decoration: none;
+    color: #fff;
+    font-weight: 600;
+    font-size: 16px;
+    padding-bottom: 10px;
+}
+
+button#sup-contact {
+    background-color: rgb(23, 74, 110);
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: center;
+    clear: both;
+    font-size: 14px;
+    border: none;
+    color: #fff;
+    outline: none;
+}
+
+button#sup-contact:hover, button#sup-contact:active {
+    box-shadow: 3px 3px 0px rgb(12, 55, 85);
+}
+
+header .box-header #number {
+    
+}
+
+section.sec {
+    margin: auto;
+   /* box-shadow: 5px 5px 20px #000; */
+}
+
+footer {
+    background-color: rgb(56, 57, 68);
+    width: 1280px;
+    height: 680px;
+    padding-top: 60px;
+    color: #fff;
+}
+
+footer #container {
+    display: flex;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+}
+
+footer #container #logo {
+    background-image: url('../img/logo_sil.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 160px;
+    height: 70px;
+    background-size: 150px;
+}
+
+footer #container input {
+    background-color: rgb(23, 74, 110);
+    border-radius: 5px;
+    padding: 10px 20px;
+    text-align: left;
+    clear: both;
+    font-size: 14px;
+    border: none;
+    color: #fff;
+    width: 160px;
+    outline: none;
+}
+
+footer #container button#v {
+    width: 40px;
+    height: 40px;
+    background-color: white;
+    border-radius: 5px;
+    background-image: url('../img/picto/send.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 30px 30px;
+    border: 3px solid rgb(23, 74, 110);
+    outline: none;
+    transition: 0.5s;
+}
+
+footer #container button#v:active, footer #container button#v:hover {
+    border-color: white;
+}
+
+footer .input-btn {
+    display: flex;
+    height: 40px;
+    background: rgb(23, 74, 110);
+    border-radius: 5px;
+}
+
+footer .input-btn:active, footer .input-btn:hover {
+    box-shadow: 3px 3px 0px rgb(12, 55, 85);
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: #fff; 
+    font-size: 14px;  
+}
+
+input::-webkit-input-placeholder:hover, textarea::-webkit-input-placeholder:hover {
+    color: red;
+}
+
+footer .container {
+    
+}
+
+footer #text {
+}
+
+footer .un-footer {
+    margin: 0px 60px;
+}
+
+footer #container span {
+    border-right: 2px solid white;
+    height:15px;
+}
