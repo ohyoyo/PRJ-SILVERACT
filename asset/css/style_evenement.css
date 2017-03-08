@@ -103,8 +103,8 @@ section#welcome {
     top: 0;
     background-image: url('../img/bg/ballons.jpg');
     background-repeat: no-repeat;
-    background-size: 100%;
-    height: 854px;
+    background-size: 120%;
+    height: 1000px;
 }
 
 section#welcome h1 {
@@ -128,6 +128,7 @@ section#welcome #container-box h1{
 section#welcome #container {
     margin-top:200px;
     width: 320px;
+    height: 0px;
     padding: 330px;
     margin-left: 150px;
     background: #fff;
@@ -140,7 +141,7 @@ section#welcome #container {
 }
 
 #date p{
-    padding-top: 230px;
+    padding-top: 330px;
 }
 section#welcome #carre1{
     margin-left: -160px;
@@ -197,7 +198,7 @@ section#welcome #carre5{
 section#welcome #container-box p { 
     padding-bottom: 20px;
     text-align: center;
-    margin-top: -200px;
+    margin-top: -300px;
     color: rgb(23, 74, 110);
     font-family: 'Poppins SemiBold', sans-serif;
     font-size: 28px;
