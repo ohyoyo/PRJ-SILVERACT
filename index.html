@@ -2,37 +2,43 @@
 <html lang="fr">
 <head>
     <meta charset="UTF-8">
-    <title>Silver Act'</title>
+    <title>Silver Act' - Votre plaisir, notre ambition.</title>
     
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta name="description" content="Silver Act, procurez-vous des instants de loisirs, de détentes enrichissements culturels et bien d'autres, au travers de nos activités les plus attractives.">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     
     <link href="https://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.min.css">
-    
-    <link rel="stylesheet" href="asset/css/grille.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
     <link rel="stylesheet" href="asset/css/reset.css">
     <link rel="stylesheet" href="asset/css/commun.css">
     <link rel="stylesheet" href="asset/css/style.css">
     
+    <script>
+        var _pageName = 'index';
+    </script>
+
     <script src="asset/js/jquery.min.js"></script>
     <script src="asset/js/script.js"></script>
     <script src="asset/js/document.js"></script>
+    <script src="asset/js/header.js"></script>
 </head>
 <body>
     <!-- header -->
     <header>
-        <nav>
-            <ul class="headerjs-nav">
-            <!-- function header.jquery.js -> _headerJS_nav -->
-            </ul>
-        </nav>
-        
-        <div class="headerjs-contact" id="box-contact">
+        <div style="display:flex;height:60px;">
+            <img width="25px" style="margin: 0px 140px;" src="asset/img/logo-silver_act.svg" alt="Silver Act Logo">
+            <nav>
+                <ul class="headerjs-nav">
+                <!-- function header.jquery.js -> _headerJS_nav -->
+                </ul>
+            </nav>
+        </div>
+        <div style="display:inline-block;" class="headerjs-contact" id="box-contact">
         <!-- function header.jquery.js -> _headerJS_contact -->
         </div>
     </header>
-    
     <!-- section welcome -->
     <section class="sec" id="welcome">
         <div id="container-box">
@@ -50,37 +56,38 @@
         <i><span></span></i><i><span></span></i><i><span></span></i>
     </section>
     
+    <div id="resp"></div>
     <!-- section activite -->
     <section class="sec" id="activite">
         <h2 id="s_green"><span>nos</span> activités</h2>
         
-        <div class="grid" id="container-box">
-            <div class="activity col-2 m-col-2">
+        <div class="container row" id="container-box">
+            <div class="activity col">
                 <img src="asset/img/activity/grandpa.png" alt="">
                 <a href="">Sortie</a>
             </div>
-            <div class="activity col-3 m-col-2">
+            <div class="activity col">
                 <img src="asset/img/activity/walk-on-the-beach-1434044_1920.jpg" alt="">
                 <a href="">Activité</a>
             </div>
-            <div class="activity col-3 m-col-2">
+            <div class="activity col">
                 <img src="asset/img/activity/hands-545394_1920.jpg" alt="">
                 <a href="">Cours à domicile</a>
             </div>
-            <div class="activity col-3 m-col-2">
+            <div class="activity col">
                 <img src="asset/img/activity/grandparents-1969824_1280.jpg" alt="">
                 <a href="">Sortie</a>
             </div>
-            <div class="activity col-3 m-col-2">
+            <div class="activity col">
                 <img src="asset/img/activity/walk-on-the-beach-1434044_1920.jpg" alt="">
                 <a href="">Activité</a>
             </div>
-            <div class="activity col-3 m-col-2">
+            <div class="activity col">
                 <img src="asset/img/activity/hands-545394_1920.jpg" alt="">
                 <a href="">Cours à domicile</a>
             </div>
         </div>
-        <p class="p" id="bg_green">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia </p>
+        <p class="p col" id="bg_green">Pour un meilleur épanouissement autour de vos expériences, Silver Act vous propose une gamme de coffrets contenant diverses offres d’activités à déterminer selon vos envies, praticable de manière individuelle  ou avec vos proches. </p>
     </section>
     
     <!-- section comment-ca-marche -->
@@ -89,26 +96,26 @@
         <p></p>
         <p></p>
         <p></p>
-        <div id="container-box" class="grid">
-            <div class="box col-3 m-col-6 s-col-10">
+        <div id="container-box" class="container row">
+            <div class="box col">
                 <div class="img" id="for"></div>
                 <h3>Pour qui ?</h3>
-                <p class="m-col-6">Finies les semaines qui se ressemblent et l’ennui au quotidien. Envie d'ateliers ou de cours  pour vous mêmes ou vos proches? Nos animations seront adaptées aux besoins et aux attentes de chacun.</p>
+                <p class="col">Finies les semaines qui se ressemblent et l’ennui au quotidien. Envie d'ateliers ou de cours  pour vous mêmes ou vos proches? Nos animations seront adaptées aux besoins et aux attentes de chacun.</p>
             </div>
-            <div class="box col-3 m-col-6 s-col-10">
+            <div class="box col">
                 <div class="img" id="how"></div>
                 <h3>Comment ?</h3>
-                <p class="m-col-6">Aprés un entretien avec un conseiller dédié, nous déterminerons les activités qui conviennent ainsi que leur récurrence.Envie d'un atelier musique le lundi, suivi d'une séance de gym douce le mardi ? Chez Silver Act' nos intervenants répondront à toutes vos attentes.</p>
+                <p class="col">Aprés un entretien avec un conseiller dédié, nous déterminerons les activités qui conviennent ainsi que leur récurrence.Envie d'un atelier musique le lundi, suivi d'une séance de gym douce le mardi ? Chez Silver Act' nos intervenants répondront à toutes vos attentes.</p>
             </div>
-            <div class="box col-3 m-col-6 s-col-10">
+            <div class="box col">
                 <div class="img" id="pay"></div>
                 <h3>Moyens de paiement</h3>
-                <p class="m-col-6">Silver Act' est une société de service à la personne. La plupart des services peuvent bénéficier d'avantages fiscaux. Réduction d'impôts égale à 50% des dépenses engagées pour la majorité des activités (selon les conditions et limites fixées art. 199 sexdecies du CGI).</p>
+                <p class="col">Silver Act' est une société de service à la personne. La plupart des services peuvent bénéficier d'avantages fiscaux. Réduction d'impôts égale à 50% des dépenses engagées pour la majorité des activités (selon les conditions et limites fixées art. 199 sexdecies du CGI).</p>
             </div>
-            <div class="box col-3 m-col-6 s-col-10">
+            <div class="box col">
                 <div class="img" id="box"></div>
                 <h3>Carte cadeaux</h3>
-                <p class="m-col-6">Silver Act' est une société de service à la personne. La plupart des services peuvent bénéficier d'avantages fiscaux. Réduction d'impôts égale à 50% des dépenses engagées pour la majorité des activités (selon les conditions et limites fixées art. 199 sexdecies du CGI).</p>
+                <p class="col">Silver Act' est une société de service à la personne. La plupart des services peuvent bénéficier d'avantages fiscaux. Réduction d'impôts égale à 50% des dépenses engagées pour la majorité des activités (selon les conditions et limites fixées art. 199 sexdecies du CGI).</p>
             </div>
         </div>
     </section>
@@ -121,33 +128,12 @@
     <!-- section valeur -->
     <section class="sec" id="valeur">
         <h2><span>nos</span> valeurs</h2>
-        <p class="p" id="bg_blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
+        <p class="p col" id="bg_blue">Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum. Sed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt. Neque porro quisquam est, qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit, sed quia non numquam eius modi tempora incidunt ut labore et dolore magnam aliquam quaerat voluptatem.</p>
     </section>
     
     <!-- section footer -->
-    <footer>
-        <div class="container grid" id="container">
-            <div class="un-footer" id="logo"></div>
-            <span></span>
-            <form class="un-footer input-btn" action="">
-                <input type="email" placeholder="S'inscrire à la newsletter">
-                <button type="submit" id="v"></button>
-            </form>
-            <span></span>
-            <button class="box-header un-footer" id="sup-contact">
-                Nous contacter
-            </button>
-        </div>
-        
-        <div class="container grid" >
-            <div id="text">
-                <h3>Animation à domicile sur mesure à Paris</h3>
-                <p>Silver Act’ propose une gamme complête d’activités sur mesure à Paris et sa région, en direct ou par l’intermédiaire de vos enfants, dans un but tant récréatif que de stimulation de l’ensemble des sens</p>
-            </div>
-        </div>
+    <footer id="footerJS">
+ 
     </footer>
-    
-    <script src="asset/js/headerjs.jquery.js"></script>
-    
 </body>
 </html>

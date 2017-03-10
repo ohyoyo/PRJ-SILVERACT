@@ -1,6 +1,5 @@
 body {
     margin: 0 auto;
-    width: 1280px;
     max-width: 1280px;
     font-family: 'Poppins', sans-serif;
 }
@@ -23,12 +22,22 @@ body {
     color: rgb(163, 207, 189);
 }
 
+#s_red {
+    color: rgb(228, 63, 63);   
+}
+
 #bg_green {
     background: rgb(163, 207, 189);
+    background-image: url(../img/bg/background6green.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
 #bg_blue {
     background: rgb(109, 169, 212);
+    background-image: url(../img/bg/background6blue.png);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 h1 span, h2 span {
     color: #e0dddd;
@@ -52,33 +61,34 @@ h1, h2 {
     color: #fff;
     font-size: 14px;
     margin-top: 50px;
-    padding-left: 150px;
-    padding-right: 150px;
-    padding-top: 40px;
-    padding-bottom: 40px;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 2%;
+    padding-bottom: 2%;
     line-height: 1.35;
+    text-align: justify;
+    z-index: -5;
 }
 
 header {
-    margin: 0;
-    width: 1280px;
+    min-width: 1280px;
     z-index: 0;
     position: fixed;
-    display: block;
     background-color: rgba(0, 0, 0, 0.749);
     height: 60px;
 }
 
 header nav {
-    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 60px;
 }
 
 header nav ul {
     display: flex;
-    flex-wrap: wrap;
-    align-items: stretch;
     justify-content: center;
-    margin-top: 23px;
+    align-items: center;
     color: #fff;
 }
 
@@ -91,16 +101,26 @@ header nav ul a {
     font-size: 16px;
 }
 
+header nav ul a:hover {
+    color: #fff;
+}
+header nav ul a li {
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
 header nav ul a li.active {
     font-weight: 700;
-    padding-bottom: 19px;
-    border-bottom: 2px solid white;
+    border-bottom: 3px solid white;
 }
 
 header nav ul a li.activites .menu {
     display: inline-block;
     height: 1px;
     width: 1px;
+    margin-left: 5px;
 	border: 1px solid #fff;
 	border-color: transparent transparent #fff transparent;
 	border-width: 5px;
@@ -121,7 +141,7 @@ header #box-contact {
     text-align: center;
 }
 
-header #box-contact #phone {
+#phone {
     background-image: url('../img/icn_.svg');
     background-repeat: no-repeat;
     background-size: 14px;
@@ -165,10 +185,6 @@ button#sup-contact {
 
 button#sup-contact:hover, button#sup-contact:active {
     box-shadow: 3px 3px 0px rgb(12, 55, 85);
-}
-
-header .box-header #number {
-    
 }
 
 section.sec {
@@ -247,15 +263,8 @@ input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
     font-size: 14px;  
 }
 
-input::-webkit-input-placeholder:hover, textarea::-webkit-input-placeholder:hover {
-    color: red;
-}
-
 footer .container {
     
-}
-
-footer #text {
 }
 
 footer .un-footer {
@@ -265,4 +274,130 @@ footer .un-footer {
 footer #container span {
     border-right: 2px solid white;
     height:15px;
+}
+footer #footer-nav {
+    display: flex;
+    flex-direction: row;
+}
+
+footer #footer-nav .nav {
+    max-width: 400px;
+    margin: 50px;
+    display: flex;
+    align-content: flex-start;
+}
+
+footer #footer-nav .nav h3 {
+    font-weight: 600;
+    margin-bottom: 20px;
+}
+
+footer #footer-nav .nav p {
+    font-size: 14px;
+}
+
+footer #footer-nav .nav#navigation {
+    display: flex;
+    flex-direction: column;
+}
+
+footer #footer-nav .nav#navigation ul li {
+    margin-bottom: 7px;
+    font-size: 14px;
+}
+
+footer #footer-nav .nav#navigation ul li a {
+    text-decoration: none;
+    color: white;
+    
+}
+
+footer #footer-nav .nav#contact {
+    display: flex;
+    flex-direction: column;
+}
+
+footer #footer-nav .nav#contact #number a {
+    text-decoration: none;
+    color: #fff;
+}
+
+@media screen and (max-width: 1279px){
+    header {
+        width: 100%;
+        z-index: 0;
+        position: fixed;
+        background-color: rgba(0, 0, 0, 0.749);
+        height: 60px;
+    }
+    
+    header nav {
+        width: 100%;
+    }
+
+    header nav ul {
+        width: 100%;
+    }
+    header nav ul a li {
+        width: 100%;
+    }
+}
+
+
+@media screen and (max-width: 800px) {
+    ul.headerjs-nav {
+        display: none;
+    }
+    
+}
+
+
+#resp {
+    width: 100%;
+    height: 90px;
+    background: red;
+}
+
+@media screen and (max-width: 1279px){
+    #resp {
+        width: 600px;
+        background: blue;
+    }
+}
+
+@media screen and (max-width: 605px) {
+    h1, h2 {
+        padding: 0;
+        width: 100%;
+        text-align: center;
+        padding: 16px 0px 5px 0px;
+    }
+    
+    section#welcome #container-box {
+        width: 100%;
+    }
+    
+    section#welcome #container {
+        width: 100%;
+        border-radius: 0px;
+    }
+}
+
+@media screen and (max-width: 480px){
+    #resp {
+        width: 600px;
+        background: green;
+    }
+
+    section#welcome #container-box p { 
+    }
+
+    section#welcome #container-box #price {
+    }
+
+    section#welcome #container-box #price span {
+    }
+
+    section#welcome #container-box #sup-contact {
+    }
 }
