@@ -12,8 +12,10 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <link rel="stylesheet" href="asset/css/reset.css">
+    <link rel="stylesheet" href="asset/css/contact.css">
+    <link rel="stylesheet" href="asset/css/commun.form.css">
     <link rel="stylesheet" href="asset/css/commun.css">
-    <link rel="stylesheet" href="asset/css/style.css">
+    <link rel="stylesheet" href="asset/css/swiper.min.css">
     
     <script>
         var _pageName = 'contact';
@@ -23,6 +25,7 @@
     <script src="asset/js/script.js"></script>
     <script src="asset/js/document.js"></script>
     <script src="asset/js/header.js"></script>
+    <script src="asset/js/swiper.min.js"></script>
 </head>
 <body>
     <!-- header -->
@@ -40,6 +43,52 @@
         </div>
     </header>
 
+    <section id="contact">
+        <h1 id="s_clairblue"><span>prendre</span> contact</h1>
+        <form class="box_form" action="">
+            <div class="container-box">
+                <h3>Par formulaire :</h3>
+                <div class="in-2" id="name">
+                    <div class="form input" id="lastname">
+                        <label class="in-1" for="lastname"></label>
+                        <input id="lastname" type="text" placeholder="Nom *">
+                    </div>
+                    <div class="form input" id="firstname">
+                        <label class="in-1" for="firstname"></label>
+                        <input id="firstname" type="text" placeholder="Prénom *">
+                    </div>
+                </div>
+                <div class="in-2" id="contact">
+                    <div class="form input" id="firstname">
+                        <label class="in-1" for="mail"></label>
+                        <input id="mail" type="email" placeholder="Adresse mail *">
+                    </div>
+                    <div class="form input" id="firstname">
+                        <label class="in-1" for="number"></label>
+                        <input id="number" type="tel" placeholder="Numéro de téléphone *">
+                    </div>
+                </div>
+                <div class="in-1" id="object">
+                    <div class="form input" id="object">
+                        <label class="in-1" for="object"></label>
+                        <input id="object" type="text" placeholder="Objet">
+                    </div>
+                </div>
+                <div class="in-1" id="message">
+                    <div class="form input" id="message">
+                        <label for="message"></label>
+                        <textarea rows="5" id="message" placeholder="Message *"></textarea>
+                    </div>
+                </div>
+                <div class="in-2" id="submit">
+                    <div class="form input" id="input">
+                        <label class="in-1" for="submit"></label>
+                        <input id="submit" type="submit" value="Envoyer">
+                    </div>
+                </div>
+            </div>
+        </form>
+    </section>
 
     <!-- section footer -->
     <footer id="footerJS">

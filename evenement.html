@@ -12,8 +12,9 @@
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
 
     <link rel="stylesheet" href="asset/css/reset.css">
+    <link rel="stylesheet" href="asset/css/evenement.css">
+    <link rel="stylesheet" href="asset/css/commun.form.css">
     <link rel="stylesheet" href="asset/css/commun.css">
-    <link rel="stylesheet" href="asset/css/style.css">
     
     <script>
         var _pageName = 'evenement';
@@ -39,7 +40,45 @@
         <!-- function header.jquery.js -> _headerJS_contact -->
         </div>
     </header>
-
+    
+    <section id="evenement">
+        <h1 id="s_bluewolf"><span>créer</span> un évènement</h1>
+        <form class="box_form" action="">
+            <div class="container-box">
+                <h3>Proposer un évènement :</h3>
+                <div class="in-1" id="title">
+                    <div class="form input" id="title">
+                        <label class="in-1" for="title"></label>
+                        <input id="title" type="text" placeholder="Titre de l'évènement *">
+                    </div>
+                </div>
+                <div class="in-2" id="date">
+                    <div class="form input" id="date-1">
+                        <label class="in-1" for="date-1"></label>
+                        <input id="date-1" type="email" placeholder="Adresse mail *">
+                    </div>
+                    <span id="s_bluewolf">au</span>
+                    <div class="form input" id="date-2">
+                        <label class="in-1" for="date-2"></label>
+                        <input id="date-2" type="tel" placeholder="Numéro de téléphone *">
+                    </div>
+                </div>
+                <div class="in-1" id="message">
+                    <div class="form input" id="message">
+                        <label for="message"></label>
+                        <textarea rows="5" id="message" placeholder="Message *"></textarea>
+                    </div>
+                </div>
+                <div class="in-2" id="submit">
+                    <div class="form input" id="input">
+                        <label class="in-1" for="submit"></label>
+                        <input id="submit" type="submit" value="Envoyer">
+                    </div>
+                </div>
+            </div>
+        </form>
+        <p class="p col" id="bg_blue">Silver Act' est également là pour organiser votre événement sur mesure pour passer un moment en famille ou entre amis convivial et chaleureux. Nous vous proposons des artistes de qualité et professionnels pour que votre événement marque l’esprit de vos convives. Des devis sur mesure, des artistes et animations, nous nous occupons de vous faire plaisir.</p>
+    </section>
 
     <!-- section footer -->
     <footer id="footerJS">

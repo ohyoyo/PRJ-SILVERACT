@@ -1,0 +1,29 @@
+section#contact {
+    background-image: url(../img/bg/hands-545394_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+
+section#contact .container-box .form label[for='lastname'], label[for='firstname'] {
+    background-image: url('../img/contact/ic_person_outline_black_24px.svg');
+}
+
+section#contact .container-box .form label[for='mail'] {
+    background-image: url('../img/contact/ic_email_black_24px.svg');
+}
+
+section#contact .container-box .form label[for='number'] {
+    background-image: url('../img/contact/ic_phone_black_24px.svg');
+}
+
+section#contact .container-box .form label[for='object'] {
+    background-image: url('../img/contact/ic_clear_all_black_24px.svg');
+}
+
+section#contact .container-box .form label[for='message'] {
+    background-image: url('../img/contact/ic_chat_bubble_outline_black_24px.svg');
+}
+
+section#contact .container-box .form label[for='submit'] {
+    background-image: url('../img/contact/ic_send_black_24px.svg');
+}

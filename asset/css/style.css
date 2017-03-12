@@ -3,6 +3,7 @@ section#welcome {
     background: url('../img/bg/StockSnap_EAR2HR15JH.jpg') no-repeat;
     background-size: 100%;
     height: 640px;
+    z-index: -80;
 }
 
 section#welcome h1 {
@@ -89,10 +90,11 @@ section#activite #container-box .activity a {
     text-decoration: none;
     color: rgb(134, 135, 146);
     font-size: 22px;
-    font-weight: 600;
+    font-weight: 500;
     height: 60px;
     justify-content: center;
     align-items: center;
+    text-align: center;
 }
 
 section#ccm h2 {
@@ -172,9 +174,46 @@ section#valeur h2 {
     color: rgb(109, 169, 212);
 }
 
-section#valeur #security {
-    background-image: url('../img/icn_.svg');
+section#valeur .container {
+    max-width: 1280px;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+}
+
+section#valeur .container .valeur {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+    margin: 0px 100px;
+}
+
+section#valeur .container .valeur .icn {
+    background-position: center;
+    margin-bottom: 30px;
+}
+
+section#valeur .container .valeur #security {
+    background-image: url(../img/valeur/security.png);
     background-repeat: no-repeat;
-    width: 74px;
-    height: 101px;
+    width: 124px;
+    height: 122px;
+}
+
+section#valeur .container .valeur #happyness {
+    background-image: url(../img/valeur/plaisir.png);
+    background-repeat: no-repeat;
+    width: 124px;
+    height: 122px;
+    
+}
+
+section#valeur .container .valeur #trust {
+    background-image: url(../img/valeur/confiance.png);
+    background-repeat: no-repeat;
+    width: 124px;
+    height: 122px;
+    
 }

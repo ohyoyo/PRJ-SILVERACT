@@ -1,0 +1,67 @@
+form.box_form {
+    text-align: center;
+}
+
+form.box_form .container-box {
+    background: #fff;
+    display: inline-block;
+    border-radius: 5px;
+}
+
+form.box_form .container-box h3 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(23, 74, 110);
+    font-weight: 600;
+    font-size: 18px;
+    margin: 10px;
+}
+
+form.box_form .container-box input, textarea, .input, button {
+    border-radius: 5px;
+    background: rgb(23, 74, 110);
+    border: none;
+    color: white;
+}
+
+form.box_form .container-box input, textarea {
+    padding: 0px 15px;
+    outline: none;
+}
+form.box_form .container-box .in-2 input {
+    width: 300px;
+}
+
+form.box_form .container-box .in-1 input, textarea {
+    width: 100%;
+}
+
+form.box_form .container-box .in-2 {
+    display: flex;
+}
+
+form.box_form .container-box label {
+    width: 40px;
+    background-color: white;
+    border-radius: 5px;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: 20px 20px;
+    border: 3px solid rgb(23, 74, 110);
+    outline: none;
+    transition: 0.5s;
+}
+form.box_form .container-box label.in-1 {
+    height: 40px;
+}
+
+form.box_form .container-box .form {
+    display: flex;
+    margin: 5px 25px;
+}
+
+input::-webkit-input-placeholder, textarea::-webkit-input-placeholder {
+    color: white;
+    text-align: center;
+}

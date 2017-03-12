@@ -48,6 +48,7 @@ $(document).ready(function() {
         '</div>'
         ],
         _footerJS = [
+        '<iframe src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d335830.6273324141!2d2.300965!3d48.883438!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x0%3A0xc7ceb185064f372c!2sSilver+Act&#39;+-+Animation+%C3%A0+domicile+pour+seniors!5e0!3m2!1sfr!2sfr!4v1489272399987" width="100%" height="450" frameborder="0" style="border:0" allowfullscreen></iframe>'+
        '<div class="container" id="container">'+
             '<img width="45px" src="asset/img/logo-silver_act.svg" class="un-footer row" >'+
             '<span></span>'+

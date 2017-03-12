@@ -1,36 +1,23 @@
-section.event {
-    z-index: -5;
-    
+section#evenement {
+    background-image: url(../img/bg/hot-air-balloons-439331_1920.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
 }
 
-section.event li, p {
-    color: rgb(134, 135, 146);
-    display: flex;
-    flex-direction: row;
-    max-width: 880px;
-    font-weight: 300;
-    margin: auto;
+section#evenement .container-box .form label[for='title'] {
+    background-image: url('../img/event/ic_title_black_24px.svg');
 }
 
-section.event a {
-    color: rgb(134, 135, 146);
-    font-weight: 500;
-}
-section.event .etap {
-    font-weight: 600;
+section#evenement .container-box .form label[for='date-1'], label[for='date-2'] {
+    background-image: url('../img/event/ic_today_black_24px.svg');
 }
 
-section.event li {
-    margin: 5px 0px;
+section#evenement .container-box .form label[for='message'] {
+    background-image: url('../img/event/ic_event_note_black_24px.svg');
 }
 
-section.event div {
-    margin: 0px 15px;
+section#evenement .container-box #date span {
+    display: inline-flex;
     justify-content: center;
+    align-items: center;
 }
-
-section.event p {
-    margin: 5px; 0px;
-    display: inline-block;
-}
-
